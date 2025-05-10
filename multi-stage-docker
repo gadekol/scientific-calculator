@@ -1,7 +1,7 @@
 # 1. Clone the repository
 FROM alpine/git AS repo
 WORKDIR /repo
-RUN git clone https://github.com/rondusTechnology/maven-web-application.git .
+RUN git clone https://github.com/itoroukpe/scientific-calculator.git .
 # RUN git clone https://github.com/rondusTechnology/maven-web-application.git .
 
 # 2. Build with Maven (using Java 11)
